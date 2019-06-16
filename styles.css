@@ -28,7 +28,7 @@ body,html {
     margin-left: 2px;
     border-left-style: solid;
     border-left-width: 5px;
-    border-left-color: #01998c;
+    border-left-color: #9a9a9a;
 }
 
 .left-message{
@@ -38,9 +38,10 @@ body,html {
     border-style: solid;
     border-width: 1px;
     border-radius:5px;
-    color: white;
+    border-color: white;
     padding: 10px;
-    background-color:#01998c;
+    background-color: #9a9a9a;
+    color: black;
 }
 
 .right{
@@ -49,7 +50,7 @@ body,html {
     margin-right: 2px;
     border-right-style: solid;
     border-right-width: 5px;
-    border-right-color: #9a9a9a;
+    border-right-color: #01998c;
 }
 .right-message{
     width: fit-content;
@@ -60,7 +61,7 @@ body,html {
     border-radius:5px;
     color: white;
     padding: 10px;
-    background-color:#9a9a9a;
+    background-color: #01998c;
 }
 
 .right-message img{
