@@ -74,4 +74,8 @@ body,html {
   .right-message img {
       max-width:50%;
   }
+  .right-message {
+      max-width: 75%;
+      height:auto;
+  }
 }
