@@ -24,7 +24,6 @@ body,html {
 }
 
 .left{
-    width: fit-content;
     margin-left: 2px;
     border-left-style: solid;
     border-left-width: 5px;
@@ -45,15 +44,15 @@ body,html {
 }
 
 .right{
-    width: fit-content;
     margin-right: 2px;
     border-right-style: solid;
     border-right-width: 5px;
     border-right-color: #01998c;
 }
+
 .right-message{
     width: fit-content;
-    margin-left: 10px;
+    margin-left: auto;
     margin-right:10px;
     border-style: solid;
     border-width: 1px;
@@ -71,6 +70,9 @@ body,html {
 
 @media only screen and (max-width: 768px) {
   .right-message {
+      max-width: 75%;
+  }
+  .left-message {
       max-width: 75%;
   }
 }
