@@ -45,7 +45,6 @@ body,html {
 }
 
 .right{
-    margin-left:auto;
     width: fit-content;
     margin-right: 2px;
     border-right-style: solid;
