@@ -69,10 +69,15 @@ body,html {
 }
 
 @media only screen and (max-width: 768px) {
-  .right-message {
+    html {
+        -webkit-text-size-adjust: 100%;
+    }
+
+    .right-message {
       max-width: 75%;
-  }
-  .left-message {
-      max-width: 75%;
-  }
+    }
+    
+    .left-message {
+        max-width: 75%;
+    }
 }
