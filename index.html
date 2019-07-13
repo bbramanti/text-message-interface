@@ -4,6 +4,7 @@
         <title>TEXT MESSAGE UI</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
         <div id="messages">
@@ -50,8 +51,14 @@
             </p>
         </div>
         </div>
-        <div id="input">
-            <div id="form-container">
+        <div id="input" class="flex-grid">
+                    <div class="col-1">
+                        <i class="material-icons">add</i>
+                    </div>
+                    <input class="col-2" type="text" placeholder="type message ..."/>
+                    <div class="col-3">
+                        <i class="material-icons">send</i>
+                    </div>
             </div>
         </div>
     </body>
