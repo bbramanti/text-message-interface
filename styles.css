@@ -22,8 +22,21 @@ html {
     height:10%;
     bottom: 0px;
     left:0px;
-    right: 0px;
+    right: 0px; 
     background-color: #1a1a1a;
+}
+
+#form-container {
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 60%;
+    border: solid 2px white;
+    border-radius: 5px;
 }
 
 .left{
